@@ -19,6 +19,7 @@ header {
 
 .container3>h2 {
     padding-top: 6vw;
+    padding-right: 20vw;
 }
 .page-section-heading text-center text-uppercase text-white{
     padding-top: 10vw;
@@ -69,6 +70,7 @@ img{
     height: 55vw;
     background-color: rgb(37, 45, 48);
     padding-bottom: 15vw;
+    padding-left: 20vw;
 
 }
 .container5{
@@ -79,7 +81,21 @@ img{
     padding-top: 2vw;
 }
 
+
 @media (max-width: 576px) {  
+  
+   #texto>h4{
+     font-size: 5px;
+     line-height: 150%;
+     padding-top: 2vw;
+ }
+ .container3{
+    height: 180vw;
+    background-color: rgb(37, 45, 48);
+    padding-bottom: 15vw;
+    padding-left: 20vw;
+
+}
 .p{
     font-size: 5vw;
 }
@@ -87,17 +103,28 @@ img{
     width: 80%;
     height: 80%;
   }
-
-
+.col-lg-4>h4{
+    font-size: 1vw;
 
 }
+.container4{
+    height: 100vw;
+}
+ }
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
    .carousel-inner img {
     width: 55%;
     height: 55%;
   }
-  
+  #texto>h4{
+    font-size:smaller;
+    line-height: 150%;
+    padding-top: 2vw;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -136,4 +163,9 @@ section{
 padding-top: 2vw;
 padding-right: 2vw;
     display: inline-block;
+}
+#texto>h4{
+    font-size:large;
+    line-height: 150%;
+    padding-top: 2vw;
 }
