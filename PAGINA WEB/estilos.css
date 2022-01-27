@@ -1,0 +1,139 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    font-family: Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    
+}
+.container-fluid{
+    padding: 0;
+}
+
+header {
+    background-color: rgb(37, 45, 48);
+}
+#logotipo{
+    padding-top: 1vw;
+    padding-left: 3vw;
+}
+
+.container3>h2 {
+    padding-top: 6vw;
+}
+.page-section-heading text-center text-uppercase text-white{
+    padding-top: 10vw;
+}
+.lead{
+    padding-top: 3vw;
+    padding-bottom: 10vw;
+}
+.container4{
+    height: 70vw;
+}
+.container4>h2 {
+    padding-top: 8vw;
+}
+.container5>h2 {
+    padding-bottom: 6vw;
+    
+}
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+main {
+    background-color: rgb(140, 168, 181);
+}
+#menuCentral{
+    text-align: right;
+    padding-top: 1.7vw;
+    padding-right: 5vw;
+    
+}
+#menuCentral>a{
+   color: white;
+ 
+    
+}
+a{
+    padding: 4vw;
+}
+img{
+    size: 1000px;
+}
+.container3{
+    height: 55vw;
+    background-color: rgb(37, 45, 48);
+    padding-bottom: 15vw;
+
+}
+.container5{
+    height: 630px;
+    background-color:  rgb(37, 45, 48); 
+}
+.container5>h2 {
+    padding-top: 2vw;
+}
+
+@media (max-width: 576px) {  
+.p{
+    font-size: 5vw;
+}
+.carousel-inner img {
+    width: 80%;
+    height: 80%;
+  }
+
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+   .carousel-inner img {
+    width: 55%;
+    height: 55%;
+  }
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedorAlineamiento{
+    padding-left: 15vw;
+}
+p{
+    font-size: 25px;
+    font-weight:lighter;
+}
+.icono{
+    padding: 30px;
+}
+section{
+
+    top: 20vw;
+}
+.redes{
+padding-top: 2vw;
+padding-right: 2vw;
+    display: inline-block;
+}
