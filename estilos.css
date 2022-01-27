@@ -85,8 +85,8 @@ img{
 @media (max-width: 576px) {  
   
    #texto>h4{
-     font-size: 5px;
-     line-height: 150%;
+     font-size: 3px;
+     line-height: 100%;
      padding-top: 2vw;
  }
  .container3{
@@ -120,7 +120,7 @@ img{
     height: 55%;
   }
   #texto>h4{
-    font-size:smaller;
+    font-size:2px;
     line-height: 150%;
     padding-top: 2vw;
 }
