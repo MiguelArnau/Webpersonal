@@ -85,7 +85,7 @@ img{
 @media (max-width: 576px) {  
   
    #texto>h4{
-     font-size: 3px;
+     font-size: 2px;
      line-height: 100%;
      padding-top: 2vw;
  }
@@ -168,4 +168,15 @@ padding-right: 2vw;
     font-size:large;
     line-height: 150%;
     padding-top: 2vw;
+}
+.carousel-caption{
+background-color: rgb(37, 45, 48);
+margin-left: 8vw;
+margin-right: 8vw;
+padding-bottom: 3vw;
+margin-top: 9vw;
+opacity: 80%;
+}
+.carousel-caption>h3{
+    color: white;
 }
